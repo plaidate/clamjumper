@@ -9,6 +9,14 @@ claim.
 
 ![Clam Jumper](screenshot.png)
 
+**[Read the full player's manual →](MANUAL.md)**
+
+## Play it
+
+Grab a prebuilt `ClamJumper.pdx.zip` from `dist/` (or the GitHub Releases
+page), then sideload it at <https://play.date/account/sideload/> or unzip it
+and open the `.pdx` in the Playdate Simulator. No toolchain needed.
+
 ## Pick your hunter
 
 - **Sea Star** — the grip. Slow, but clams give up easily (shortest crank),

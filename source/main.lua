@@ -187,7 +187,7 @@ local function tick()
         if Harness.enabled then
             -- rotate species across smoke games (or force via SMOKE_SPECIES)
             local n = #Species.order
-            if SMOKE_SPECIES and SMOKE_SPECIES ~= false then
+            if SMOKE_SPECIES then
                 G.speciesIdx = ((SMOKE_SPECIES - 1) % n) + 1
             else
                 G.speciesIdx = ((Harness.counters.games or 0) % n) + 1

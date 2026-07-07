@@ -1,5 +1,5 @@
 -- The pearl-rain bonus round (the original's separate mode, reskinned):
--- between reefs, pearls drift down the water column and the crab scoots
+-- between reefs, pearls drift down the water column and your critter scoots
 -- left/right along the seabed to catch them. No hazards, pure points.
 
 Bonus = {}

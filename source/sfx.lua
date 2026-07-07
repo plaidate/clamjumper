@@ -14,10 +14,6 @@ function Sfx.blip(f)
     tri:playNote(f or 660, 0.25, 0.04)
 end
 
-function Sfx.step()
-    tri2:playNote(520, 0.12, 0.02)
-end
-
 -- a rising bubble as the clam is pried
 function Sfx.pry(prog)
     tri2:playNote(400 + prog * 500, 0.2, 0.03)
