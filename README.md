@@ -1,5 +1,7 @@
 # Clam Jumper
 
+> Part of **[plAIdate](https://plaidate.github.io)** — AI-built 1-bit games, ports, and engines for the Playdate.
+
 An ocean-bed take on the 1982 arcade game
 [Claim Jumper](https://en.wikipedia.org/wiki/Claim_Jumper_(video_game)) —
 where a cowboy raced a rival to collect gold bars in a maze, here you pick
