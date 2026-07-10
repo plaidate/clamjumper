@@ -1,6 +1,7 @@
 name=Clam Jumper
-author=sdwfrost
+author=Simon Frost
 description=An ocean-bed take on Claim Jumper. Pick sea star, octopus, or ray and race a rival across a coral maze, cranking open clams for their pearls.
 bundleID=com.sdwfrost.clamjumper
 version=0.1
-buildNumber=1
+buildNumber=2
+imagePath=launcher

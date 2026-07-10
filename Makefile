@@ -18,12 +18,12 @@ smoke: build/smoke/source
 
 build/release/source: source/*
 	mkdir -p $@ $(OUT)
-	cp source/* $@/
+	cp -r source/* $@/
 	echo 'SMOKE_BUILD = false' > $@/smokeflag.lua
 
 build/smoke/source: source/*
 	mkdir -p $@ $(OUT)
-	cp source/* $@/
+	cp -r source/* $@/
 	echo 'SMOKE_BUILD = true' > $@/smokeflag.lua
 	echo 'SMOKE_SPECIES = $(if $(SMOKE_SPECIES),$(SMOKE_SPECIES),false)' >> $@/smokeflag.lua
 
